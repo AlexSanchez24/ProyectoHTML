@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto', sans-serif;          /* Fuente toda la pagina */
+}
+
+body{
+    background: linear-gradient(90deg, #1f3eee 20.43%, #5dc8f3 100%); /* Para hacer colores en degradado */
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;                 /* alinear todo */
+}
+
+nav ul{
+    display:flex;
+    list-style: none;           /* QUITAR BIÑETAS */
+    
+}
+
+nav ul li{
+    margin: 0 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;              /* QUITAR EL SUBRAYADO */
+    color: white;
+    font-size: 20px;            /* Tamaño de la fuente */
+}
+
+nav span{
+    color: white;
+    font-weight: bold;      /* Para poner letra en negrita */
+    font-size: 20px;         /* Tamaño fuente */
+}
+
+.btn{
+    background-color: rgba(255, 136, 0, 0.884);
+    font-size: 20px;
+    border: none;               /* Quitar bordes boton */
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+#Texto-principal{
+    width: 30%;         /* Reducir el texto que no se vea de toda la pagina */
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;            /* Alinear todo */
+    margin-top: 50px;
+}
+
+main span{
+    font-size: 40px;
+    display: block;
+}
